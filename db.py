@@ -8,7 +8,7 @@ from bson import ObjectId
 
 
 
-client = MongoClient('mongodb+srv://admin:admin@cluster0.04pyt.mongodb.net/<dbname>?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://admin:*****@cluster0.04pyt.mongodb.net/<dbname>?retryWrites=true&w=majority')
 
 chat_db = client.get_database('ChatDB')
 users_collection = chat_db.get_collection('users')
